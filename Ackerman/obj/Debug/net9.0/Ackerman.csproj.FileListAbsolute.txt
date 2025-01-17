@@ -1,0 +1,14 @@
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/bin/Debug/net9.0/Ackerman
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/bin/Debug/net9.0/Ackerman.deps.json
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/bin/Debug/net9.0/Ackerman.runtimeconfig.json
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/bin/Debug/net9.0/Ackerman.dll
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/bin/Debug/net9.0/Ackerman.pdb
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.GeneratedMSBuildEditorConfig.editorconfig
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.AssemblyInfoInputs.cache
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.AssemblyInfo.cs
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.csproj.CoreCompileInputs.cache
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.dll
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/refint/Ackerman.dll
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.pdb
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.genruntimeconfig.cache
+/home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/ref/Ackerman.dll
