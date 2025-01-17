@@ -12,3 +12,18 @@
 /home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.pdb
 /home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/Ackerman.genruntimeconfig.cache
 /home/neyzer/Documents/UTT/estructura/Ackerman/Ackerman/obj/Debug/net9.0/ref/Ackerman.dll
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\bin\Debug\net9.0\Ackerman.exe
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\bin\Debug\net9.0\Ackerman.deps.json
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\bin\Debug\net9.0\Ackerman.runtimeconfig.json
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\bin\Debug\net9.0\Ackerman.dll
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\bin\Debug\net9.0\Ackerman.pdb
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.AssemblyInfo.cs
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.sourcelink.json
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.dll
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\refint\Ackerman.dll
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.pdb
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\Ackerman.genruntimeconfig.cache
+C:\Users\PC\Documents\.UTT\4 Cuatri\Estructuras de datos\actividades\TeamAckerman\ackerman-console\Ackerman\obj\Debug\net9.0\ref\Ackerman.dll
