@@ -67,7 +67,7 @@
             }
         } while (!validacion);
 
-        CalcularAckermann(m,n);
+        ImprimirAckermann(m,n);
 
         return validacion;
 
@@ -78,7 +78,7 @@
 
         return false;
     }
-    public static void CalcularAckermann(int m, int n){
+    public static void ImprimirAckermann(int m, int n){
         PrintXY(10,6,"Ackermann(" + m + "," + n + ") = resultado");
     }
     public static void PrintXY(int x, int y, string text){
