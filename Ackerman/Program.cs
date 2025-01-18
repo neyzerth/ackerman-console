@@ -3,6 +3,7 @@
     static void Main(String[] args)
     {   
         bool bandera;
+
         do
         {
             Console.Clear();
@@ -12,10 +13,13 @@
 
         Console.WriteLine("\nAdios UwU ");
     }
-    static void ImprimirAckerman(){
+    static void ImprimirAckerman()
+    {
         int m = ValidarNumero("\tIngrese un numero del 0 al 3 para m: ");
         int n = ValidarNumero("\tIngrese un numero del 0 al 3 para n: ");
 
+        //$"" permite interpolacion, es decir,
+        //permite concatenar variables dentro del texto
         Console.WriteLine($"\n\tAckerman({m},{n}) = " + Ackerman(m, n));
     }
     static int Ackerman(int m, int n)
@@ -28,15 +32,18 @@
         return Ackerman((m - 1), Ackerman(m ,(n - 1)));
     }
 
-    static int ValidarNumero(String texto){
+    static int ValidarNumero(String texto)
+    {
         int num = 0;
 
         Console.Write(texto); 
 
+        // guardar posicion del cursor antes de leer el numero
         int posx = Console.CursorLeft;
         int posy = Console.CursorTop;
 
         do{
+            // borrar lo que se haya escrito por teclado
             PrintXY(posx, posy, "                ");
             PrintXY(posx, posy, "");
             
@@ -55,33 +62,38 @@
 
         } while (true);
         
+        //Borra la linea de abajo (donde se imprimen los errores)
         PrintXY(0, posy+1, "\t                                              ");
         PrintXY(0, posy+1, "");
 
         return num;
     }
-    static void PrintXY(int x, int y, string text){
-        Console.SetCursorPosition(x,y);
-        Console.Write(text);
-    }
-
-    static bool validarContinuacion(){
+    static bool validarContinuacion()
+    {
         String respuesta;
         bool validacion;
 
+        // guardar posicion del cursor antes de leer el numero
         int posx = Console.CursorLeft;
         int posy = Console.CursorTop;
 
         do{
+            // borrar lo que se haya escrito por teclado
             PrintXY(posx, posy, "                ");
             PrintXY(posx, posy, "");
             Console.Write("\n\tDesea continuar? (S/n): ");
             respuesta = Console.ReadLine().ToLower();
 
+            //validar que escribio S o N
             validacion = respuesta.Equals("s") || respuesta.Equals("n");
         } while (!validacion);
 
         return respuesta.Equals("s");
     }
+    static void PrintXY(int x, int y, string text)
+    {
+        Console.SetCursorPosition(x,y);
+        Console.Write(text);
+    }  
 
 }
