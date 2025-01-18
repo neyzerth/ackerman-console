@@ -11,10 +11,15 @@
             bandera = validarContinuacion();
         } while (bandera);
 
-        Console.WriteLine("\nAdios Morticio");
+        Console.WriteLine("\nAdios aaaaaaaaaaaaaaaaaaaaaaa");
+        Console.WriteLine("\nAdios aaaaaaaaaaaaaaaaaaaaaaa");
     }
     static void ImprimirAckerman()
     {
+        Console.WriteLine("\nAdios aaaaaaaaaaaaaaaaaaaaaaa");
+        Console.WriteLine("\nAdios aaaaaaaaaaaaaaaaaaaaaaa");
+        Console.WriteLine("\nAdios aaaaaaaaaaaaaaaaaaaaaaa");
+        Console.WriteLine("\nAdios aaaaaaaaaaaaaaaaaaaaaaa");
         int m = ValidarNumero("\tIngrese un numero del 0 al 3 para m: ");
         int n = ValidarNumero("\tIngrese un numero del 0 al 3 para n: ");
 
