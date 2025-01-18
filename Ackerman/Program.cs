@@ -7,6 +7,7 @@
         do
         {
             Console.Clear();
+            Console.WriteLine("\n\t\tCalculadora Ackermann\n");
             ImprimirAckerman();
             bandera = validarContinuacion();
         } while (bandera);
@@ -15,8 +16,8 @@
     }
     static void ImprimirAckerman()
     {
-        int m = ValidarNumero("\tIngrese un numero del 0 al 3 para m: ");
-        int n = ValidarNumero("\tIngrese un numero del 0 al 3 para n: ");
+        int m = ValidarNumero("\tIngrese un número del 0 al 3 para m: ");
+        int n = ValidarNumero("\tIngrese un número del 0 al 3 para n: ");
 
         //$"" permite interpolacion, es decir,
         //permite concatenar variables dentro del texto
@@ -47,7 +48,7 @@
         do
         {
             // borrar lo que se haya escrito por teclado
-            PrintXY(posx, posy, "                ");
+            PrintXY(posx, posy, "                                        ");
             PrintXY(posx, posy, "");
             
             try {
@@ -58,15 +59,18 @@
                     break; 
 
             } catch(Exception){
-                Console.WriteLine("\tFavor de Ingresar Un Numero Valido");
+                //Borra el mensaje de error anterior para evitar sobreposicion
+                PrintXY(0, posy+1, "                                                  ");
+                PrintXY(4, posy+1, "");
+                Console.WriteLine("\tFavor de Ingresar Un Número Válido");
                 continue; //Continua el ciclo
             }
-            Console.WriteLine("\tFavor de Ingresar Un Numero entre 0 y 3");
+            Console.WriteLine("\tFavor de Ingresar Un Número entre 0 y 3");
 
         } while (true);
         
         //Borra la linea de abajo (donde se imprimen los errores)
-        PrintXY(0, posy+1, "\t                                              ");
+        PrintXY(0, posy+1, "\t                                                  ");
         PrintXY(0, posy+1, "");
 
         return num;
@@ -76,15 +80,16 @@
         String respuesta;
         bool validacion;
 
+        Console.Write("\n\t¿Desea Continuar? (S/n): ");
+        
         // guardar posicion del cursor antes de leer el numero
         int posx = Console.CursorLeft;
         int posy = Console.CursorTop;
 
         do{
             // borrar lo que se haya escrito por teclado
-            PrintXY(posx, posy, "                ");
+            PrintXY(posx, posy, "                                        ");
             PrintXY(posx, posy, "");
-            Console.Write("\n\tDesea continuar? (S/n): ");
             respuesta = Console.ReadLine().ToLower();
 
             //validar que escribio S o N
