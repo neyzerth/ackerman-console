@@ -11,7 +11,7 @@
             bandera = validarContinuacion();
         } while (bandera);
 
-        Console.WriteLine("\nAdios UwU ");
+        Console.WriteLine("\nAdios Morticio");
     }
     static void ImprimirAckerman()
     {
