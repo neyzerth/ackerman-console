@@ -37,48 +37,38 @@ class Program
     }
     public static bool Solicitar(){
         int m = 0, n = 0;
-        bool validacion;
+            bool validacion;
 
-        do
-        {
-            PrintXY(10,3,"                                                                 ");
-            PrintXY(10,3,"Ingrese un número del 0 al 3 para m: ");
-            try
+            for (int i = 0; i < 2; i++)
             {
-                m = Int32.Parse(Console.ReadLine());
-                validacion = ValidarNumero(m);
+                do
+                {
+                    PrintXY(10, i+3,"                                                                 ");
+                    PrintXY(10, i+3,"Ingrese un número del 0 al 3 para " + Convert.ToChar(109 + i) + ": ");
+                    try
+                    {
+                        if (i == 0){
+                            m = Int32.Parse(Console.ReadLine());
+                            validacion = ValidarNumero(m);
+                        }
+                        else{
+                            n = Int32.Parse(Console.ReadLine());
+                            validacion = ValidarNumero(n);
+                        }
+                    }
+                    catch (System.Exception)
+                    {
+                        validacion = false;
+                    }
+                } while (!validacion);
             }
-            catch (System.Exception)
-            {
-                validacion = false;
-            }
-        } while (!validacion);
-        //DRY this
-        do
-        {
-            PrintXY(10,4,"                                                                 ");
-            PrintXY(10,4,"Ingrese un número del 0 al 3 para n: ");
-            try
-            {
-                n = Int32.Parse(Console.ReadLine());
-                validacion = ValidarNumero(n);
-            }
-            catch (System.Exception)
-            {
-                validacion = false;
-            }
-        } while (!validacion);
-
         CalcularAckermann(m,n);
-
+        validacion = Continuar();
+        
         return validacion;
-
     }
     public static bool ValidarNumero(int numero){
-        if (numero >= 0 && numero <= 3)
-            return true;
-
-        return false;
+        return numero >= 0 && numero <= 3;
     }
     public static void CalcularAckermann(int m, int n){
         PrintXY(10,6,"Ackermann(" + m + "," + n + ") = resultado");
@@ -87,5 +77,19 @@ class Program
         Console.SetCursorPosition(x,y);
         Console.Write(text);
     }
+    public static bool Continuar(){
+        bool validacion = true;
+        string respuesta;
 
+        do{
+            PrintXY(10, 8,"                                                                 ");
+            PrintXY(10, 8, "¿Desea realizar otro cálculo? (s/n): ");
+            respuesta = Console.ReadLine().ToLower();
+        }while (!(respuesta == "s" || respuesta == "n"));
+
+        if (respuesta == "s")
+            validacion = false;
+
+        return validacion;
+    }
 }
