@@ -32,6 +32,8 @@
         return Ackerman((m - 1), Ackerman(m ,(n - 1)));
     }
 
+    //El parametro texto es el mensaje que se mostrara 
+    //al usuario antes de leer el numero
     static int ValidarNumero(String texto)
     {
         int num = 0;
@@ -42,7 +44,8 @@
         int posx = Console.CursorLeft;
         int posy = Console.CursorTop;
 
-        do{
+        do
+        {
             // borrar lo que se haya escrito por teclado
             PrintXY(posx, posy, "                ");
             PrintXY(posx, posy, "");
