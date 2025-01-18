@@ -10,7 +10,7 @@
             Console.Clear();
             Console.WriteLine("\n\t\tCalculadora Ackermann\n");
             ImprimirAckerman();
-            bandera = validarContinuacion();
+            bandera = ValidarContinuacion();
         } while (bandera);
 
         Console.WriteLine("\nAdios UwU ");
@@ -76,7 +76,7 @@
 
         return num;
     }
-    static bool validarContinuacion()
+    static bool ValidarContinuacion()
     {
         String respuesta;
         bool validacion;
