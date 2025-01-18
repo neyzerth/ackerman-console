@@ -2,6 +2,7 @@
 {
     static void Main(String[] args)
     {   
+        Console.Title = "Ackermann";
         bool bandera;
 
         do
@@ -81,7 +82,7 @@
         bool validacion;
 
         Console.Write("\n\t¿Desea Continuar? (S/n): ");
-        
+
         // guardar posicion del cursor antes de leer el numero
         int posx = Console.CursorLeft;
         int posy = Console.CursorTop;
